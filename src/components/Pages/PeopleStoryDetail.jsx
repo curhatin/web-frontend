@@ -3,6 +3,7 @@ import Navbar from '../MainComponents/Navbar/Navbar';
 import UserNavbar from '../MainComponents/UserNavbar/UserNavbar';
 import PstoryDetail from '../MainComponents/PstoryDetail/PstoryDetail';
 
+
 class PeopleStoryDetail extends Component {
     constructor(props) {
         super(props);
@@ -13,6 +14,7 @@ class PeopleStoryDetail extends Component {
             <div>
                 <Navbar />
                 <UserNavbar />
+            
                 <PstoryDetail />
             </div>
          );
